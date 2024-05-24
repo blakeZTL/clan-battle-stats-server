@@ -5,7 +5,13 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins=[
-    "https://hidden-caverns-01384-1c5c4dad7960.herokuapp.com"
+    "https://hidden-caverns-01384-1c5c4dad7960.herokuapp.com",
+    "http://www.ps99clanbattlestats.com",
+    "https://www.ps99clanbattlestats.com",
+    "http://www.ps99clanbattlestats.io",
+    "https://www.ps99clanbattlestats.io",
+    "ps99clanbattlestats.com",
+    "ps99clanbattlestats.io"
 ]
 app.add_middleware(
     CORSMiddleware,
