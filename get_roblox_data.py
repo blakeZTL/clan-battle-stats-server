@@ -1,5 +1,5 @@
 from typing import List
-from app.data_classes import (
+from data_classes import (
     ClanBattleApiResponse,
     ClanBattleData,
     ClansData,

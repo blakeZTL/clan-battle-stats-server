@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
-from app.data_classes import ClanApiResponse, ClanBattleApiResponse
-from app.get_roblox_data import get_clan_data, get_roblox_users, get_active_clan_battle
-from app.helpers import convert_unix_timestamp_to_date
+from data_classes import ClanApiResponse, ClanBattleApiResponse
+from get_roblox_data import get_clan_data, get_roblox_users, get_active_clan_battle
+from helpers import convert_unix_timestamp_to_date
 
 def agg_clan_member_profiles(clan_data: ClanApiResponse):
     member_ids = [member.UserID for member in clan_data.data.Members]

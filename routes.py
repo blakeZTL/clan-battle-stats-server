@@ -1,4 +1,4 @@
-from app.agg_roblox_data import calculate_points_per_unit,get_active_clan_battle,get_clan_data
+from agg_roblox_data import calculate_points_per_unit,get_active_clan_battle,get_clan_data
 from fastapi import APIRouter
 
 router = APIRouter()
