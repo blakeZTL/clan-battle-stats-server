@@ -11,7 +11,8 @@ origins=[
     "http://www.ps99clanbattlestats.io",
     "https://www.ps99clanbattlestats.io",
     "ps99clanbattlestats.com",
-    "ps99clanbattlestats.io"
+    "ps99clanbattlestats.io",
+    "http://localhost:3000",
 ]
 app.add_middleware(
     CORSMiddleware,
